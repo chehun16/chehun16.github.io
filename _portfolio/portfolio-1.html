@@ -27,6 +27,10 @@ collection: portfolio
     </a> above!
 </p>
 
+<ul>
+  <li><a href="https://chehun16.github.io/gs-quality/" target="_blank">Project page</a></li>
+  <li><a href="https://lacy-tick-ae2.notion.site/Novel-View-Pose-Synthesis-with-Geometry-Aware-Regularization-for-Enhanced-3D-Gaussian-Splatting-245b0c1a844f80e096fbd720f5484f0d" target="_blank">Project detail</a></li>
+</ul>
 
 <br>
 
@@ -49,7 +53,22 @@ improved geometry accuracy, multi-view consistency, and reduced artifacts.
 <br>
 
 <h2>Contributions</h2>
-
+<ol>
+  <li>
+    Novel view camera pose generation
+    <ul>
+      <li>Expanded spatial coverage and ensured consistency between viewpoints.</li>
+      <li>Removed artifacts in scenes rendered from novel view camera poses using DIFIX.</li>
+    </ul>
+  </li>
+  <li>
+    Introduction of additional loss terms
+    <ol>
+      <li>Added a perceptual LPIPS loss applied only to novel views to preserve not only pixel information but also structural details.</li>
+      <li>Applied normal consistency loss and depth smoothness loss to all views to improve geometry reconstruction quality.</li>
+    </ol>
+  </li>
+</ol>
 
 
 <br>
@@ -120,12 +139,12 @@ improved geometry accuracy, multi-view consistency, and reduced artifacts.
 
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-    <video width="300" controls>
+    <video width="320" controls>
         <source src="/videos/cg1.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
-    <video width="300" controls>
+    <video width="320" controls>
         <source src="/videos/cg2.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
@@ -143,7 +162,7 @@ improved geometry accuracy, multi-view consistency, and reduced artifacts.
 <br>
 <br>
 
-<a href="https://github.com/chehun16/autonomous-engine" style="text-decoration: none; display: inline-flex; align-items: center; padding: 6px 10px; background-color: #333; color: white; border-radius: 5px; font-size: 14px; font-weight: bold;">
+<a href="https://github.com/chehun16/3dgs-quality" style="text-decoration: none; display: inline-flex; align-items: center; padding: 6px 10px; background-color: #333; color: white; border-radius: 5px; font-size: 14px; font-weight: bold;">
     <img src="https://github.com/fluidicon.png" alt="GitHub" style="width: 18px; height: 18px; margin-right: 5px; filter: invert(1);">
     autonomous-engine
 </a>
