@@ -13,7 +13,7 @@ Hi! I am Chehun Han. I'm studying **AI** at EWHA Womans University. I have inter
 
 <p align="center">
   <a href="mailto:chehunhan16@gmail.com">E-mail</a> |
-  <a href="/files/CV_0811.pdf" target="_blank">CV</a> |
+  <a href="/files/CV.pdf" target="_blank">CV</a> |
   <a href="https://github.com/chehun16">Github</a>
 </p>
 
