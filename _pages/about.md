@@ -57,13 +57,14 @@ Experiences
 
 ### Research Intern
 
+[Computer Graphics Lab](https://cg.postech.ac.kr/) [@POSTECH](https://postech.ac.kr/kor/index.do) Jun .2025 ~ Aug .2025
+- Advisor: [Prof. Seungyong Lee](https://cg.postech.ac.kr/leesy/)
+- Thesis: Improving the quality of indoor 3D Reconstruction based on 3DGS
+
 [PAI Lab](https://pai.ewha.ac.kr/) [@EWHA](https://www.ewha.ac.kr/ewha/index.do) Mar. 2024 ~ Jan. 2025
 - Advisor: [Prof. Junhyug Noh](https://junhyug.github.io/)
 - Thesis: Gait Re-Identification based on IMU data
 
-[Computer Graphics Lab](https://cg.postech.ac.kr/) [@POSTECH](https://postech.ac.kr/kor/index.do) Jun .2025 ~ Aug .2025
-- Advisor: [Prof. Seungyong Lee](https://cg.postech.ac.kr/leesy/)
-- Thesis: Improving the quality of indoor 3D Reconstruction based on 3DGS
 
 <br>
 
