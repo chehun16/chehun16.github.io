@@ -41,7 +41,7 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
 ## Education
 
 
-<table style="width:100%; border-collapse: collapse; margin-top:12px;">
+<table style="width:100%; border-collapse: collapse; margin-top:18px;">
   <tr>
     <td style="width:25%; vertical-align: top; padding-right: 20px;">
       <strong>Mar. 2023 – Feb. 2027</strong>
@@ -60,7 +60,7 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
 
 ## Experience
 
-<table style="width:100%; border-collapse: collapse; margin-top:12px;">
+<table style="width:100%; border-collapse: collapse; margin-top:18px;">
 
   <tr>
     <td style="width:25%; vertical-align: top; padding-right: 20px;">
