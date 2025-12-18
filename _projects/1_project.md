@@ -7,8 +7,6 @@ importance: 1
 # category: work
 ---
 
-
-<h2>Novel View Pose Synthesis with Geometry-Aware Regularization for Enhanced 3D Gaussian Splatting</h2>
 @POSTECH Computer Graphics Lab
 
 <h2>Project Goal</h2>

@@ -2,114 +2,103 @@
 layout: page
 title: 3DGS Diet
 description: deepdaiv
-img: assets/img/selfdrive.png
+img: assets/img/3dgs.png
 importance: 3
 # category: work
 ---
 
-<h2>Project Goal</h2>
-<ul>
-    <li>Reduce Memory Consumption</li>
-    <li>Develop a Complete End-to-End Pipeline</li>
-    <li>Enable Real-Time Autonomous Control</li>
-</ul>
+<h2>Memory optimization for 3D Gaussian Splatting.</h2>
 
-<h2>Project Page</h2>
+<br>
 
 <div style="text-align: center;">
-    <iframe src="https://chehun16.github.io/deepdrive/" width="800" height="400" 
+    <iframe src="https://deep-daiv-computer-vision.github.io/3DGS_DIET/" width="800" height="400" 
             style="display: block; margin: auto; border: none;"></iframe>
 </div>
 
 
 <p style="color: gray; font-size: 0.8em;">
     Detailed information about the project can be found in the 
-    <a href="https://chehun16.github.io/deepdrive/" target="_blank" style="color: gray; text-decoration: underline;">
+    <a href="https://deep-daiv-computer-vision.github.io/3DGS_DIET/" target="_blank" style="color: gray; text-decoration: underline;">
         project page
     </a> above!
 </p>
-
 
 <br>
 
 <h2>Project Overview</h2>
 
-<p align="center">
-    <img src="/images/selfdrive.png" alt="Self-driving Project" width="600">
-</p>
+<p><a href="https://www.notion.so/3DGS-Diet-18cb0c1a844f8013aeedcbee87ad2113?pvs=21"><strong>🥗 3DGS Diet</strong></a></p>
 
-<p>
-I worked on a project that integrated object detection, lane detection, depth estimation, and planning algorithms 
-to develop an autonomous driving system. Through the perception stage, we processed the obtained information to generate an 
-occupancy map and planned the control process accordingly.
-</p>
+
+<p><strong style="color: IndianRed;">3D Gaussian Splatting memory optimization</strong> project was conducted.</p>
+<p>DBSCAN Clustering was applied to reduce the number of Gaussians.</p>
+<p>Training progress was monitored using wandb, and rendering results were visualized.</p>
 
 <p align="center">
-  <img src="/images/all.png" alt="Self-driving Project" width="600">
+    <img src="/images/wandb.png" alt="Self-driving Project" width="600">
 </p>
 
-<p>
-For object detection, we used <strong>YOLOv8</strong>, while <strong>UFLD</strong> was used for lane detection, 
-and <strong>Metric3D</strong> for depth estimation. In the planning stage, we implemented path generation using the 
-<strong>A* algorithm</strong>.
-</p>
+<h2>Result</h2>
 
-<p>
-To improve inference speed, we converted the <strong>PyTorch</strong> models to <strong>TensorRT</strong>. 
-After developing the object, lane, depth, and planning engines, we integrated them into a single unified engine.
-We named the unified engine as the <strong>Autonomous Engine</strong>.
-</p>
+<p>The experiment results show that rendering performance (SSIM, PSNR, LPIPS) remains largely unchanged, while the <strong style="color: IndianRed;">number of Gaussians decreased by approximately 200,000</strong>.</p>
 
-<p>
-For our project, we used the Nvidia Jetson Orin Nano 8GB, Nvidia JetRacer, and a CSI camera. 
-While driving the JetRacer, we collected a total of 11,243 images. After capturing the data, we manually 
-labeled objects and lanes before conducting experiments.
-</p>
+<table>
+    <tr>
+        <th>Model Application Point</th>
+        <th>Densification Stop Point</th>
+        <th>SSIM</th>
+        <th>PSNR</th>
+        <th>LPIPS</th>
+        <th># Gaussian</th>
+    </tr>
+    <tr>
+        <td>3DGS</td>
+        <td>15,000</td>
+        <td>0.8756</td>
+        <td>24.449</td>
+        <td>0.1506</td>
+        <td>1,072,083</td>
+    </tr>
+    <tr>
+        <td>DBSCAN_14000</td>
+        <td>15,000</td>
+        <td>0.8762</td>
+        <td>24.629</td>
+        <td>0.1500</td>
+        <td>1,064,677</td>
+    </tr>
+    <tr>
+        <td>DBSCAN_24000</td>
+        <td>25,000</td>
+        <td>0.8651</td>
+        <td><strong style="color: IndianRed;">24.081</strong></td>
+        <td>0.1626</td>
+        <td><strong style="color: IndianRed;">867,287</strong></td>
+    </tr>
+</table>
 
-<h2>Results</h2>
+<h3>Rendering Visualization</h3>
+<p>Clustering applied at: 24,000 / Densification stopped at: 25,000</p>
+
 
 <p align="center">
-    <video width="600" controls>
-        <source src="/videos/realfinal.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <img src="/images/vis.png" alt="visualization" width="600">
 </p>
 
-<p>This is a visualization of the results when running the Autonomous Engine.</p>
-
-<p>During this project, the vehicle had difficulty accurately detecting lanes, so we used <strong>ResNet</strong> to train 
-    the direction it should follow. This video visualizes the results.</p>
-
-<p align="center">
-    <video width="600" controls>
-        <source src="/videos/resnet3.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</p>
 
 <br>
 
-<h2>Seminar</h2>
-
-<p>I was in charge of the presentation at the 10th <strong style="color: #264a8e">deepdaiv</strong> Open Seminar.😊</p>
-
-<p align="center">
-    <img src="/images/presentation.png" alt="Self-driving Project" width="600">
+<p>After conducting this project, we further experimented and wrote the paper 
+    <a href="/publication/2024-11-01-gaussian-dbscan"><strong>Developing a Model for Improving 3D Gaussian Splatting Performance Based on DBSCAN</strong></a>.
 </p>
-
-<br>
-
-<div style="border-left: 6px solid #007BFF; background-color: #f0f8ff; padding: 15px; margin-top: 20px; border-radius: 5px; font-size: 14px;">
-    <strong>🧑‍💻 My Role:</strong> Led the development of <strong>object detection</strong> and <strong>lane detection</strong> modules, and implemented the integration of all perception-planning-control components into a unified <strong>Autonomous Engine</strong>. Also managed data collection and labeling. 
-    Additionally, I delivered a presentation of the project at the deepdaiv Open Seminar.
-    Also made the project page.😊
-</div>
 
 <br>
 <br>
 <br>
 
-<a href="https://github.com/chehun16/autonomous-engine" style="text-decoration: none; display: inline-flex; align-items: center; padding: 6px 10px; background-color: #333; color: white; border-radius: 5px; font-size: 14px; font-weight: bold;">
+<a href="https://github.com/chehun16/3DGS_DIET" style="text-decoration: none; display: inline-flex; align-items: center; padding: 6px 10px; background-color: #333; color: white; border-radius: 5px; font-size: 14px; font-weight: bold;">
     <img src="https://github.com/fluidicon.png" alt="GitHub" style="width: 18px; height: 18px; margin-right: 5px; filter: invert(1);">
-    autonomous-engine
+    3DGS_Diet
 </a>
+
