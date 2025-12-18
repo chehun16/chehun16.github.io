@@ -74,7 +74,12 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
       <a href="https://www.hanyang.ac.kr/">Hanyang University</a>,
       Seoul, South Korea<br>
       <em>Undergraduate Research Intern</em><br>
-      - Advisor: <a href="https://soonminhwang.github.io/">Prof. Sunmin Hwang</a>
+      <ul style="margin-top: 6px; margin-bottom: 0; padding-left: 18px;">
+        <li>
+          Advisor: <a href="https://soonminhwang.github.io/">Prof. Sunmin Hwang</a>
+        </li>
+      </ul>
+    
     </td>
   </tr>
 
@@ -92,19 +97,13 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
       <a href="https://postech.ac.kr/kor/index.do">POSTECH</a>,
       Pohang, South Korea<br>
       <em>Undergraduate Research Intern</em><br>
-      - Advisor: <a href="https://cg.postech.ac.kr/leesy/">Prof. Seungyong Lee</a><br>
-      - Topic: Improving the quality of indoor 3D Reconstruction based on
-      3D Gaussian Splatting (3DGS).
-
-      <em>Undergraduate Research Intern</em>
-
       <ul style="margin-top: 6px; margin-bottom: 0; padding-left: 18px;">
         <li>
           Advisor: <a href="https://cg.postech.ac.kr/leesy/">Prof. Seungyong Lee</a>
         </li>
         <li>
           Topic: Improving the quality of indoor <strong>3D Reconstruction</strong>
-          based on <strong>3D Gaussian Splatting (3DGS)</strong>
+          based on 3D Gaussian Splatting (3DGS)
         </li>
       </ul>
 
@@ -125,8 +124,15 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
       <a href="https://www.ewha.ac.kr/ewha/index.do">EWHA Womans University</a>,
       Seoul, South Korea<br>
       <em>Undergraduate Research Intern</em><br>
-      - Advisor: <a href="https://junhyug.github.io/">Prof. Junhyug Noh</a><br>
-      - Topic: Gait Re-Identification based on IMU data.
+      <ul style="margin-top: 6px; margin-bottom: 0; padding-left: 18px;">
+        <li>
+          Advisor: <a href="https://junhyug.github.io/">Prof. Junhyug Noh</a><br>
+        </li>
+        <li>
+          Topic: Gait Re-Identification based on IMU data
+        </li>
+      </ul>
+      
     </td>
   </tr>
 
