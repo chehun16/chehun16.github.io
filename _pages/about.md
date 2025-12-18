@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: B.S. in AI @EHWA
 
 profile:
   align: right
@@ -27,10 +27,6 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
 Hi! I am Chehun Han. I'm studying **AI** at EWHA Womans University. I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
