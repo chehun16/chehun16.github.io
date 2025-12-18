@@ -4,7 +4,7 @@ title: Copying Tesla
 description: deepdaiv
 img: assets/img/selfdrive.png
 importance: 2
-category: work
+# category: work
 ---
 
 <h2>Project Goal</h2>

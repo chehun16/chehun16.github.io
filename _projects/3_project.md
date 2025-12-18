@@ -1,81 +1,115 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: 3DGS Diet
+description: deepdaiv
+img: assets/img/selfdrive.png
 importance: 3
-category: work
+# category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<h2>Project Goal</h2>
+<ul>
+    <li>Reduce Memory Consumption</li>
+    <li>Develop a Complete End-to-End Pipeline</li>
+    <li>Enable Real-Time Autonomous Control</li>
+</ul>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<h2>Project Page</h2>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+<div style="text-align: center;">
+    <iframe src="https://chehun16.github.io/deepdrive/" width="800" height="400" 
+            style="display: block; margin: auto; border: none;"></iframe>
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<p style="color: gray; font-size: 0.8em;">
+    Detailed information about the project can be found in the 
+    <a href="https://chehun16.github.io/deepdrive/" target="_blank" style="color: gray; text-decoration: underline;">
+        project page
+    </a> above!
+</p>
+
+
+<br>
+
+<h2>Project Overview</h2>
+
+<p align="center">
+    <img src="/images/selfdrive.png" alt="Self-driving Project" width="600">
+</p>
+
+<p>
+I worked on a project that integrated object detection, lane detection, depth estimation, and planning algorithms 
+to develop an autonomous driving system. Through the perception stage, we processed the obtained information to generate an 
+occupancy map and planned the control process accordingly.
+</p>
+
+<p align="center">
+  <img src="/images/all.png" alt="Self-driving Project" width="600">
+</p>
+
+<p>
+For object detection, we used <strong>YOLOv8</strong>, while <strong>UFLD</strong> was used for lane detection, 
+and <strong>Metric3D</strong> for depth estimation. In the planning stage, we implemented path generation using the 
+<strong>A* algorithm</strong>.
+</p>
+
+<p>
+To improve inference speed, we converted the <strong>PyTorch</strong> models to <strong>TensorRT</strong>. 
+After developing the object, lane, depth, and planning engines, we integrated them into a single unified engine.
+We named the unified engine as the <strong>Autonomous Engine</strong>.
+</p>
+
+<p>
+For our project, we used the Nvidia Jetson Orin Nano 8GB, Nvidia JetRacer, and a CSI camera. 
+While driving the JetRacer, we collected a total of 11,243 images. After capturing the data, we manually 
+labeled objects and lanes before conducting experiments.
+</p>
+
+<h2>Results</h2>
+
+<p align="center">
+    <video width="600" controls>
+        <source src="/videos/realfinal.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</p>
+
+<p>This is a visualization of the results when running the Autonomous Engine.</p>
+
+<p>During this project, the vehicle had difficulty accurately detecting lanes, so we used <strong>ResNet</strong> to train 
+    the direction it should follow. This video visualizes the results.</p>
+
+<p align="center">
+    <video width="600" controls>
+        <source src="/videos/resnet3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</p>
+
+<br>
+
+<h2>Seminar</h2>
+
+<p>I was in charge of the presentation at the 10th <strong style="color: #264a8e">deepdaiv</strong> Open Seminar.😊</p>
+
+<p align="center">
+    <img src="/images/presentation.png" alt="Self-driving Project" width="600">
+</p>
+
+<br>
+
+<div style="border-left: 6px solid #007BFF; background-color: #f0f8ff; padding: 15px; margin-top: 20px; border-radius: 5px; font-size: 14px;">
+    <strong>🧑‍💻 My Role:</strong> Led the development of <strong>object detection</strong> and <strong>lane detection</strong> modules, and implemented the integration of all perception-planning-control components into a unified <strong>Autonomous Engine</strong>. Also managed data collection and labeling. 
+    Additionally, I delivered a presentation of the project at the deepdaiv Open Seminar.
+    Also made the project page.😊
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<br>
+<br>
+<br>
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+<a href="https://github.com/chehun16/autonomous-engine" style="text-decoration: none; display: inline-flex; align-items: center; padding: 6px 10px; background-color: #333; color: white; border-radius: 5px; font-size: 14px; font-weight: bold;">
+    <img src="https://github.com/fluidicon.png" alt="GitHub" style="width: 18px; height: 18px; margin-right: 5px; filter: invert(1);">
+    autonomous-engine
+</a>
