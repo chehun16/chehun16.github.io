@@ -34,6 +34,10 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
 
 <br>
 
+<div class="clearfix">{{ content }}</div>
+<div style="clear: both;"></div>
+
+
 ## Education
 
 <table style="width:100%; border-collapse: collapse;">
