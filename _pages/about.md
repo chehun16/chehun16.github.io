@@ -34,7 +34,7 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
 
 <br>
 
-<div class="clearfix">{{ content }}</div>
+
 <div style="clear: both;"></div>
 
 
@@ -54,6 +54,8 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
     </td>
   </tr>
 </table>
+
+<br>
 
 ## Experience
 
