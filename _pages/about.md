@@ -21,8 +21,6 @@ experience: true
 #   limit: 5
 ---
 
-fixing 🛠️🛠️🛠️🛠️🛠️🛠️
-
 Hi! I am Chehun Han. I'm studying **AI** at EWHA Womans University.  
 I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
 
