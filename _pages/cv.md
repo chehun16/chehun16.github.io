@@ -1,9 +1,9 @@
 ---
-layout: cv
+layout: default
 permalink: /cv/
-title: CV
 nav: true
 nav_order: 5
-cv_pdf: assets/pdf/CV.pdf # you can also use external links here
 ---
-
+<script>
+  window.location.href = "{{ '/assets/pdf/CV.pdf' | relative_url }}";
+</script>
