@@ -74,9 +74,12 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
       <a href="https://www.hanyang.ac.kr/">Hanyang University</a>,
       Pohang, South Korea<br>
       <em>Undergraduate Research Intern</em><br>
-      Advisor: <a href="https://soonminhwang.github.io/">Prof. Sunmin Hwang</a><br>
+      Advisor: <a href="https://soonminhwang.github.io/">Prof. Sunmin Hwang</a>
     </td>
   </tr>
+
+  <!-- spacer -->
+  <tr><td colspan="2" style="height:18px;"></td></tr>
 
   <tr>
     <td style="width:25%; vertical-align: top; padding-right: 20px;">
@@ -94,6 +97,9 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
       3D Gaussian Splatting (3DGS).
     </td>
   </tr>
+
+  <!-- spacer -->
+  <tr><td colspan="2" style="height:18px;"></td></tr>
 
   <tr>
     <td style="width:25%; vertical-align: top; padding-right: 20px;">
