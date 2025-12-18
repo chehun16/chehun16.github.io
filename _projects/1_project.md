@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 1
+title: Novel View Pose Synthesis with Geometry-Aware Regularization for Enhanced 3D Gaussian Splatting
 description: POSTECH Computer Graphics Lab
 img: assets/img/cg.png
 importance: 1
 category: work
-related_publications: true
 ---
 
 
