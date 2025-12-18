@@ -27,9 +27,9 @@ Hi! I am Chehun Han. I'm studying **AI** at EWHA Womans University.
 I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
 
 <p align="center">
-  <a href="mailto:chehunhan16@gmail.com">E-mail</a> |
-  <a href="/assets/pdf/CV.pdf" target="_blank">CV</a> |
-  <a href="https://github.com/chehun16">Github</a>
+  <a href="mailto:chehunhan16@gmail.com">**E-mail**</a> |
+  <a href="/assets/pdf/CV.pdf" target="_blank">**CV**</a> |
+  <a href="https://github.com/chehun16">**Github**</a>
 </p>
 
 <br>
@@ -64,6 +64,21 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
 
   <tr>
     <td style="width:25%; vertical-align: top; padding-right: 20px;">
+      <strong>Jan. 2026 – Present</strong>
+    </td>
+    <td style="width:75%; vertical-align: top;">
+      <strong>
+        <a href="https://ircv.hanyang.ac.kr/">IRCV Lab</a>
+      </strong>,
+      <a href="https://www.hanyang.ac.kr/">Hanyang University</a>,
+      Pohang, South Korea<br>
+      <em>Undergraduate Research Intern</em><br>
+      Advisor: <a href="https://soonminhwang.github.io/">Prof. Sunmin Hwang</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="width:25%; vertical-align: top; padding-right: 20px;">
       <strong>Jun. 2025 – Aug. 2025</strong>
     </td>
     <td style="width:75%; vertical-align: top;">
@@ -91,7 +106,7 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
       Seoul, South Korea<br>
       <em>Undergraduate Research Intern</em><br>
       Advisor: <a href="https://junhyug.github.io/">Prof. Junhyug Noh</a><br>
-      Topic: <strong>Gait Re-Identification</strong> based on <strong>IMU data</strong>
+      Topic: Gait Re-Identification based on IMU data
     </td>
   </tr>
 
