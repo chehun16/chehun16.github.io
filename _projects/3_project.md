@@ -4,7 +4,7 @@ title: 3DGS Diet
 description: deepdaiv
 img: assets/img/3dgs.png
 importance: 3
-# category: work
+category: work
 ---
 
 <h2>Memory optimization for 3D Gaussian Splatting.</h2>

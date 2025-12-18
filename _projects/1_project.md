@@ -4,7 +4,7 @@ title: Novel View Pose Synthesis with Geometry-Aware Regularization for Enhanced
 description: POSTECH Computer Graphics Lab
 img: assets/img/cg.png
 importance: 1
-# category: work
+category: work
 ---
 
 @POSTECH Computer Graphics Lab
