@@ -2,11 +2,9 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Chehun Han
+    - name: Birthday
+      value: 2002.12.16
 
 - title: Education
   type: time_table

@@ -2,31 +2,24 @@
 layout: about
 title: About
 permalink: /
-subtitle: B.S. in AI @EHWA
+subtitle: B.S. in AI @ Ewha Womans University
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
+  image_circular: false
 
-
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-education: true # includes a list of education items
-experience: true # includes a list of experience items
-# honors: true # includes a list of experience items
-# social: true  # includes social icons at the bottom of the page
-
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: true
+education: true
+experience: true
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
+  enabled: true
+  scrollable: true
+  limit: 5
 ---
 
-Hi! I am Chehun Han. I'm studying **AI** at EWHA Womans University. I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
+Hi! I am Chehun Han. I'm studying **AI** at Ewha Womans University.
+I am interested in **3D Reconstruction** and **Autonomous Driving** 🚘.
