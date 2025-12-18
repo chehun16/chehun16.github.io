@@ -41,11 +41,11 @@ category: work
 <h2>Project Overview</h2>
 
 <p align="center">
-    <img src="/images/pipeline1.png" alt="cg" width="600">
+    <img src="/img/pipeline1.png" alt="cg" width="600">
 </p>
 <p align="center">⇣</p>
 <p align="center">
-    <img src="/images/pipeline2.png" alt="cg" width="600">
+    <img src="/img/pipeline2.png" alt="cg" width="600">
 </p>
 
 <p>
@@ -144,12 +144,12 @@ improved geometry accuracy, multi-view consistency, and reduced artifacts.
 
 <div style="display: flex; justify-content: center; gap: 20px;">
     <video width="320" controls>
-        <source src="/videos/cg1.mp4" type="video/mp4">
+        <source src="/video/cg1.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
     <video width="320" controls>
-        <source src="/videos/cg2.mp4" type="video/mp4">
+        <source src="/video/cg2.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </div>
