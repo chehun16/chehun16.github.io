@@ -25,10 +25,13 @@ Hi! I am Chehun Han. I'm studying **AI** at EWHA Womans University.
 I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
 
 <p align="center">
-  <a href="mailto:chehunhan16@gmail.com">**E-mail**</a> |
-  <a href="/assets/pdf/CV.pdf" target="_blank">**CV**</a> |
-  <a href="https://github.com/chehun16">**Github**</a>
+  <strong>
+    <a href="mailto:chehunhan16@gmail.com">E-mail</a> |
+    <a href="/assets/pdf/CV.pdf" target="_blank">CV</a> |
+    <a href="https://github.com/chehun16">Github</a>
+  </strong>
 </p>
+
 
 <br>
 
@@ -87,8 +90,8 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
       Pohang, South Korea<br>
       <em>Undergraduate Research Intern</em><br>
       Advisor: <a href="https://cg.postech.ac.kr/leesy/">Prof. Seungyong Lee</a><br>
-      Topic: Improving the quality of indoor <strong>3D Reconstruction</strong> based on
-      <strong>3D Gaussian Splatting (3DGS)</strong>
+      Topic: Improving the quality of indoor 3D Reconstruction based on
+      3D Gaussian Splatting (3DGS).
     </td>
   </tr>
 
@@ -104,7 +107,7 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
       Seoul, South Korea<br>
       <em>Undergraduate Research Intern</em><br>
       Advisor: <a href="https://junhyug.github.io/">Prof. Junhyug Noh</a><br>
-      Topic: Gait Re-Identification based on IMU data
+      Topic: Gait Re-Identification based on IMU data.
     </td>
   </tr>
 
