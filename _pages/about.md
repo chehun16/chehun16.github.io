@@ -34,29 +34,58 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
 
 <br>
 
+## Education
+
+<table style="width:100%; border-collapse: collapse;">
+  <tr>
+    <td style="width:25%; vertical-align: top; padding-right: 20px;">
+      <strong>Mar. 2023 – Feb. 2027</strong>
+    </td>
+    <td style="width:75%; vertical-align: top;">
+      <strong>
+        <a href="https://www.ewha.ac.kr/ewha/index.do">EWHA Womans University</a>
+      </strong>, Seoul, South Korea<br>
+      B.S. in 
+      <a href="https://ai.ewha.ac.kr/ai/index.do">Artificial Intelligence</a>
+    </td>
+  </tr>
+</table>
+
 ## Experience
 
-### Research Intern
+<table style="width:100%; border-collapse: collapse;">
 
-**Computer Graphics Lab**, [POSTECH](https://postech.ac.kr/kor/index.do)  
-<small>Jun. 2025 – Aug. 2025</small>  
-- Advisor: [Prof. Seungyong Lee](https://cg.postech.ac.kr/leesy/)
-- Topic: Improving the quality of indoor **3D Reconstruction** based on  
-  **3D Gaussian Splatting (3DGS)**
+  <tr>
+    <td style="width:25%; vertical-align: top; padding-right: 20px;">
+      <strong>Jun. 2025 – Aug. 2025</strong>
+    </td>
+    <td style="width:75%; vertical-align: top;">
+      <strong>
+        <a href="https://cg.postech.ac.kr/">Computer Graphics Lab</a>
+      </strong>,
+      <a href="https://postech.ac.kr/kor/index.do">POSTECH</a>,
+      Pohang, South Korea<br>
+      <em>Undergraduate Research Intern</em><br>
+      Advisor: <a href="https://cg.postech.ac.kr/leesy/">Prof. Seungyong Lee</a><br>
+      Topic: Improving the quality of indoor <strong>3D Reconstruction</strong> based on
+      <strong>3D Gaussian Splatting (3DGS)</strong>
+    </td>
+  </tr>
 
-**PAI Lab**, [EWHA Womans University](https://www.ewha.ac.kr/ewha/index.do)  
-<small>Mar. 2024 – Jan. 2025</small>  
-- Advisor: [Prof. Junhyug Noh](https://junhyug.github.io/)
-- Topic: **Gait Re-Identification** based on **IMU data**
+  <tr>
+    <td style="width:25%; vertical-align: top; padding-right: 20px;">
+      <strong>Mar. 2024 – Jan. 2025</strong>
+    </td>
+    <td style="width:75%; vertical-align: top;">
+      <strong>
+        <a href="https://pai.ewha.ac.kr/">PAI Lab</a>
+      </strong>,
+      <a href="https://www.ewha.ac.kr/ewha/index.do">EWHA Womans University</a>,
+      Seoul, South Korea<br>
+      <em>Undergraduate Research Intern</em><br>
+      Advisor: <a href="https://junhyug.github.io/">Prof. Junhyug Noh</a><br>
+      Topic: <strong>Gait Re-Identification</strong> based on <strong>IMU data</strong>
+    </td>
+  </tr>
 
-<br>
-
-### deepdaiv
-
-### [**deepdaiv**](https://deepdaiv.oopy.io/)
-<small>Apr. 2023 – Feb. 2025</small>  
-- ’23 Spring: Data Analysis  
-- ’23 Fall: Audio  
-- ’24 Winter: Audio  
-- ’24 Spring: Deep Learning Architecture  
-- ’24 Fall: Self-Driving
+</table>
