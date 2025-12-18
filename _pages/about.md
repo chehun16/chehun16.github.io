@@ -1,34 +1,78 @@
 ---
-layout: about
-title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+title: "Chehun Han"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+{% include base_path %}
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Hi! I am Chehun Han. I'm studying **AI** at EWHA Womans University. I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<p align="center">
+  <a href="mailto:chehunhan16@gmail.com">E-mail</a> |
+  <a href="/files/CV.pdf" target="_blank">CV</a> |
+  <a href="https://github.com/chehun16">Github</a>
+</p>
+
+Visit my [portfolio](https://chehun16.github.io/portfolio/) / [publications](https://chehun16.github.io/publications/) page also :)
+
+<br>
+
+
+Publications
+------
+
+<div style="display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin-bottom: 32px;">
+  <img src="/images/3dgs_1.png" alt="3dgs"
+     style="width: 300px; max-width: 100%; object-fit: cover;
+            border-radius: 5px; flex-shrink: 0;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);">
+
+  <div style="font-size: 16px; min-width: 200px; flex: 1;">
+    <div style="background-color: #a7c3e4ff; color: white; font-size: 12px; font-weight: bold;
+                padding: 2px 6px; border-radius: 4px; display: inline-block; margin-bottom: 4px;">
+      IEIE 2024
+    </div><br>
+    
+    <span class="papertitle" style="font-size: 16px;">
+      <strong>Developing a Model for Improving 3D Gaussian Splatting Performance Based on DBSCAN</strong>
+    </span><br>
+    
+    Dayeon Woo<sup>‡1</sup>, Eunseo Seo<sup>‡2</sup>, <strong>Chehun Han<sup>‡3</sup></strong>, 
+    Yeonkyung Lee<sup>‡4</sup>, and <sup>*</sup>Changgyun Jin<sup>5</sup><br>
+    
+    <strong>Published in IEIE 2024 Nov.</strong><br>
+    
+    <a href="/files/paper1.pdf" target="_blank">[Paper]</a>
+  </div>
+</div>
+
+<br>
+
+Experiences
+------
+
+### Research Intern
+
+[Computer Graphics Lab](https://cg.postech.ac.kr/) [@POSTECH](https://postech.ac.kr/kor/index.do) Jun .2025 ~ Aug .2025
+- Advisor: [Prof. Seungyong Lee](https://cg.postech.ac.kr/leesy/)
+- Thesis: Improving the quality of indoor 3D Reconstruction based on 3DGS
+
+[PAI Lab](https://pai.ewha.ac.kr/) [@EWHA](https://www.ewha.ac.kr/ewha/index.do) Mar. 2024 ~ Jan. 2025
+- Advisor: [Prof. Junhyug Noh](https://junhyug.github.io/)
+- Thesis: Gait Re-Identification based on IMU data
+
+
+<br>
+
+### <a href="https://deepdaiv.oopy.io/" style="color: #264a8e; text-decoration: none;">**deepdaiv**</a> 
+Apr. 2023 ~ Feb. 2025
+- '23s Data Analysis
+- '23f Audio
+- ‘24w Audio
+- ‘24s Deep Learning Architecture
+- '24f Self driving
+
