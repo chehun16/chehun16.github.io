@@ -4,7 +4,7 @@ title: Copying Tesla
 description: deepdaiv
 img: assets/img/selfdrive.png
 importance: 2
-category: 2024
+category: 2025
 ---
 
 
