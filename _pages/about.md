@@ -24,6 +24,10 @@ social: true
 Hi! I am Chehun Han. I'm studying **AI** at EWHA Womans University.  
 I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
 
+I am currently an **Undergraduate Research Intern at the 
+[IRCV Lab](https://ircv.hanyang.ac.kr/), 
+[Hanyang University](https://www.hanyang.ac.kr/)**.
+
 <p align="center">
   <strong>
     <a href="mailto:chehunhan16@gmail.com">E-mail</a> |
