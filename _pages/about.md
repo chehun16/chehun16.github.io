@@ -13,7 +13,7 @@ profile:
 education: true
 experience: true
 # selected_papers: true
-# social: true
+social: true
 
 # announcements:
 #   enabled: true
