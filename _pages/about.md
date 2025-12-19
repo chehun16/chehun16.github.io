@@ -27,7 +27,7 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
 <p align="center">
   <strong>
     <a href="mailto:chehunhan16@gmail.com">E-mail</a> |
-    <a href="/assets/pdf/CV.pdf" target="_blank">CV</a> |
+    <a href="/assets/pdf/cv_ChehunHan.pdf" target="_blank">CV</a> |
     <a href="https://github.com/chehun16">Github</a>
   </strong>
 </p>

@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /cv/
-redirect_to: /assets/pdf/CV.pdf
+redirect_to: /assets/pdf/cv_ChehunHan.pdf
 nav: true
 nav_order: 5
 title: CV
