@@ -76,7 +76,7 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
       <em>Undergraduate Research Intern</em><br>
       <ul style="margin-top: 6px; margin-bottom: 0; padding-left: 18px;">
         <li>
-          Advisor: <a href="https://soonminhwang.github.io/">Prof. Sunmin Hwang</a>
+          Advisor: <a href="https://soonminhwang.github.io/">Prof. Soonmin Hwang</a>
         </li>
       </ul>
     
@@ -102,7 +102,7 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
           Advisor: <a href="https://cg.postech.ac.kr/leesy/">Prof. Seungyong Lee</a>
         </li>
         <li>
-          Topic: Improving the quality of indoor <strong>3D Reconstruction</strong>
+          Topic: Improving the quality of indoor 3D Reconstruction
           based on 3D Gaussian Splatting (3DGS)
         </li>
       </ul>
