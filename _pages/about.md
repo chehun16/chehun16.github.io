@@ -76,7 +76,7 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
       <em>Undergraduate Research Intern</em><br>
       <ul style="margin-top: 6px; margin-bottom: 0; padding-left: 18px;">
         <li>
-          Advisor: <a href="https://soonminhwang.github.io/">Prof. Soonmin Hwang</a>
+          Advisor: <a href="https://soonminhwang.github.io/"><strong>Prof. Soonmin Hwang</strong></a>
         </li>
       </ul>
     
@@ -99,7 +99,7 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
       <em>Undergraduate Research Intern</em><br>
       <ul style="margin-top: 6px; margin-bottom: 0; padding-left: 18px;">
         <li>
-          Advisor: <a href="https://cg.postech.ac.kr/leesy/">Prof. Seungyong Lee</a>
+          Advisor: <a href="https://cg.postech.ac.kr/leesy/"><strong>Prof. Seungyong Lee</strong></a>
         </li>
         <li>
           Topic: Improving the quality of indoor 3D Reconstruction
@@ -126,7 +126,7 @@ I have interest in **3D Reconstruction** and **Autonomous Driving** 🚘.
       <em>Undergraduate Research Intern</em><br>
       <ul style="margin-top: 6px; margin-bottom: 0; padding-left: 18px;">
         <li>
-          Advisor: <a href="https://junhyug.github.io/">Prof. Junhyug Noh</a><br>
+          Advisor: <a href="https://junhyug.github.io/"><strong>Prof. Junhyug Noh</strong></a><br>
         </li>
         <li>
           Topic: Gait Re-Identification based on IMU data
