@@ -42,13 +42,13 @@ category: 2025
 ## Project Overview
 
 <p align="center">
-  <img src="assets/img/pipeline1.png" width="600">
+  <img src="./assets/img/pipeline1.png" width="600">
 </p>
 
 <p align="center">⬇️</p>
 
 <p align="center">
-  <img src="assets/img/pipeline2.png" width="600">
+  <img src="./assets/img/pipeline2.png" width="600">
 </p>
 
 I developed a method to enhance indoor 3D reconstruction with **3D Gaussian Splatting (3DGS)** by generating  
