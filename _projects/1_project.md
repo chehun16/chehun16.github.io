@@ -7,16 +7,15 @@ importance: 1
 category: 2025
 ---
 
-@POSTECH Computer Graphics Lab
+## Project Goal
 
-<h2>Project Goal</h2>
-<ul>
-    <li>Enhance the quality of 3D reconstruction</li>
-    <li>Improve multi view consistency</li>
-    <li>Incorporate geometry-aware loss terms for accurate surface reconstruction</li>
-</ul>
+- Enhance the quality of 3D reconstruction  
+- Improve multi-view consistency  
+- Incorporate geometry-aware loss terms for accurate surface reconstruction  
 
-<h2>Project Page</h2>
+## Project Page
+
+----------
 
 <div style="text-align: center;">
     <iframe src="https://chehun16.github.io/gs-quality/" width="800" height="400" 
@@ -36,123 +35,66 @@ category: 2025
   <li><a href="https://lacy-tick-ae2.notion.site/Novel-View-Pose-Synthesis-with-Geometry-Aware-Regularization-for-Enhanced-3D-Gaussian-Splatting-245b0c1a844f80e096fbd720f5484f0d" target="_blank">Project detail</a></li>
 </ul>
 
+---------------
+
 <br>
 
-<h2>Project Overview</h2>
+## Project Overview
 
 <p align="center">
-    <img src="/img/pipeline1.png" alt="cg" width="600">
+  <img src="assets/img/pipeline1.png" width="600">
 </p>
-<p align="center">⇣</p>
+
+<p align="center">⬇️</p>
+
 <p align="center">
-    <img src="/img/pipeline2.png" alt="cg" width="600">
+  <img src="assets/img/pipeline2.png" width="600">
 </p>
 
-<p>
-I developed a method to enhance indoor 3D reconstruction with 3D Gaussian Splatting (3DGS) by generating 
-novel view camera poses, refining them with DIFIX, and applying geometry-aware loss terms. This approach 
-improved geometry accuracy, multi-view consistency, and reduced artifacts.
+I developed a method to enhance indoor 3D reconstruction with **3D Gaussian Splatting (3DGS)** by generating  
+novel view camera poses, refining them with **DIFIX**, and applying **geometry-aware loss terms**.  
+This approach improves geometry accuracy, multi-view consistency, and reduces artifacts.
+
+---
+
+## Contributions
+
+1. **Novel view camera pose generation**
+   - Expanded spatial coverage and ensured consistency between viewpoints  
+   - Removed artifacts in novel-view renderings using **DIFIX**
+
+2. **Introduction of additional loss terms**
+   - Applied **LPIPS loss** only to novel views to preserve structural details beyond pixel similarity  
+   - Applied **normal consistency loss** and **depth smoothness loss** to all views to improve geometry quality  
+
+---
+
+## Results
+
+| Method            | Initial Points | PSNR ↑ | SSIM ↑ | Training Time | Frames |
+|-------------------|----------------|--------|--------|---------------|--------|
+| 3DGS              | 100,000        | 20.423 | 0.856  | 2h 13m        | 168    |
+| 2DGS              | 100,000        | 19.219 | 0.828  | 2h 1m         | 168    |
+| 2DGS (Novel)      | 100,000        | 20.375 | 0.842  | 1h 59m        | 208    |
+| **Ours (Novel)**  | 100,000        | **21.605** | **0.861** | 2h 6m | 208 |
+| **Ours + Loss**   | 100,000        | **21.675** | **0.862** | 3h 55m | 208 |
+
+- Compared to **3DGS**, our method improves **PSNR from 20.423 → 21.675** and **SSIM from 0.856 → 0.862**  
+- Applying the method to **2DGS** also yields consistent improvements, demonstrating generalizability  
+
+---
+
+## Results
+
+<p align="center">
+  <video width="320" controls>
+    <source src="assets/video/cg1.mp4" type="video/mp4">
+  </video>
+  <video width="320" controls>
+    <source src="assets/video/cg2.mp4" type="video/mp4">
+  </video>
 </p>
 
-<br>
-
-<h2>Contributions</h2>
-<ol>
-  <li>
-    Novel view camera pose generation
-    <ul>
-      <li>Expanded spatial coverage and ensured consistency between viewpoints.</li>
-      <li>Removed artifacts in scenes rendered from novel view camera poses using DIFIX.</li>
-    </ul>
-  </li>
-  <li>
-    Introduction of additional loss terms
-    <ul>
-      <li>Added a perceptual LPIPS loss applied only to novel views to preserve not only pixel information but also structural details.</li>
-      <li>Applied normal consistency loss and depth smoothness loss to all views to improve geometry reconstruction quality.</li>
-    </ul>
-  </li>
-</ol>
-
-
-<br>
-
-<h2>Results</h2>
-<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; text-align: center; margin: auto;">
-  <thead>
-    <tr>
-      <th>method</th>
-      <th>initial point#</th>
-      <th>PSNR↑</th>
-      <th>SSIM↑</th>
-      <th>Training time</th>
-      <th>frame#</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>3DGS</td>
-      <td>100000</td>
-      <td>20.423</td>
-      <td>0.856</td>
-      <td>2h 13m</td>
-      <td>168</td>
-    </tr>
-    <tr>
-      <td>2DGS</td>
-      <td>100000</td>
-      <td>19.219</td>
-      <td>0.828</td>
-      <td>2h 1m</td>
-      <td>168</td>
-    </tr>
-    <tr>
-      <td>2DGS_novel</td>
-      <td>100000</td>
-      <td>20.375</td>
-      <td>0.842</td>
-      <td>1h 59m</td>
-      <td>208</td>
-    </tr>
-    <tr>
-      <td>Ours_novel</td>
-      <td>100000</td>
-      <td style="color: rgb(105, 126, 204);">21.605</td>
-      <td style="color: rgb(105, 126, 204);">0.861</td>
-      <td>2h 6m</td>
-      <td>208</td>
-    </tr>
-    <tr>
-      <td style="color: indianred;">Ours_novel_loss</td>
-      <td>100000</td>
-      <td style="color: indianred;">21.675</td>
-      <td style="color: indianred;">0.862</td>
-      <td>3h 55m</td>
-      <td>208</td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-<ul>
-  <li>Compared to 3DGS, our method achieved a <strong>PSNR</strong> improvement from 20.423 to <strong>21.675</strong> and an <strong>SSIM</strong> increase from 0.856 to <strong>0.862</strong>.</li>
-  <li>Applying our method to 2DGS also yielded higher scores, demonstrating its generalizability.</li>
-</ul>
-
-<br>
-
-
-<div style="display: flex; justify-content: center; gap: 20px;">
-    <video width="320" controls>
-        <source src="/video/cg1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
-    <video width="320" controls>
-        <source src="/video/cg2.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</div>
 
 <br>
 
