@@ -14,6 +14,7 @@ category: 2025
 - Incorporate geometry-aware loss terms for accurate surface reconstruction  
 
 <br>
+<br>
 
 ## Project Page
 
@@ -40,6 +41,7 @@ category: 2025
 ---------------
 
 <br>
+<br>
 
 ## Project Overview
 
@@ -58,6 +60,7 @@ novel view camera poses, refining them with **DIFIX**, and applying **geometry-a
 This approach improves geometry accuracy, multi-view consistency, and reduces artifacts.
 
 <br>
+<br>
 
 ## Contributions
 
@@ -69,7 +72,8 @@ This approach improves geometry accuracy, multi-view consistency, and reduces ar
    - Applied **LPIPS loss** only to novel views to preserve structural details beyond pixel similarity  
    - Applied **normal consistency loss** and **depth smoothness loss** to all views to improve geometry quality  
 
----
+<br>
+<br>
 
 ## Results
 
@@ -90,6 +94,7 @@ This approach improves geometry accuracy, multi-view consistency, and reduces ar
 
 </div>
 
+<br>
 <br>
 
 ## Visualization
