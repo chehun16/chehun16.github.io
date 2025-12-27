@@ -13,6 +13,8 @@ category: 2025
 - Improve multi-view consistency  
 - Incorporate geometry-aware loss terms for accurate surface reconstruction  
 
+<br>
+
 ## Project Page
 
 ----------
@@ -55,7 +57,7 @@ I developed a method to enhance indoor 3D reconstruction with **3D Gaussian Spla
 novel view camera poses, refining them with **DIFIX**, and applying **geometry-aware loss terms**.  
 This approach improves geometry accuracy, multi-view consistency, and reduces artifacts.
 
----
+<br>
 
 ## Contributions
 
@@ -71,20 +73,26 @@ This approach improves geometry accuracy, multi-view consistency, and reduces ar
 
 ## Results
 
+<div align="center">
+
 | Method            | Initial Points | PSNR ↑ | SSIM ↑ | Training Time | Frames |
 |-------------------|----------------|--------|--------|---------------|--------|
 | 3DGS              | 100,000        | 20.423 | 0.856  | 2h 13m        | 168    |
 | 2DGS              | 100,000        | 19.219 | 0.828  | 2h 1m         | 168    |
 | 2DGS (Novel)      | 100,000        | 20.375 | 0.842  | 1h 59m        | 208    |
 | **Ours (Novel)**  | 100,000        | **21.605** | **0.861** | 2h 6m | 208 |
-| **Ours + Loss**   | 100,000        | **21.675** | **0.862** | 3h 55m | 208 |
+| <span style="color: indianred; font-weight: bold;">Ours + Loss</span> | 100,000 | <span style="color: indianred; font-weight: bold;">21.675</span> | <span style="color: indianred; font-weight: bold;">0.862</span> | 3h 55m | 208 |
+
+<br>
 
 - Compared to **3DGS**, our method improves **PSNR from 20.423 → 21.675** and **SSIM from 0.856 → 0.862**  
 - Applying the method to **2DGS** also yields consistent improvements, demonstrating generalizability  
 
----
+</div>
 
-## Results
+<br>
+
+## Visualization
 
 <p align="center">
   <video width="320" controls>
