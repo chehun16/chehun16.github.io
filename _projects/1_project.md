@@ -77,17 +77,62 @@ This approach improves geometry accuracy, multi-view consistency, and reduces ar
 
 ## Results
 
-<div align="center">
 
-| Method            | Initial Points | PSNR ↑ | SSIM ↑ | Training Time | Frames |
-|-------------------|----------------|--------|--------|---------------|--------|
-| 3DGS              | 100,000        | 20.423 | 0.856  | 2h 13m        | 168    |
-| 2DGS              | 100,000        | 19.219 | 0.828  | 2h 1m         | 168    |
-| 2DGS (Novel)      | 100,000        | 20.375 | 0.842  | 1h 59m        | 208    |
-| **Ours (Novel)**  | 100,000        | **21.605** | **0.861** | 2h 6m | 208 |
-| <span style="color: indianred; font-weight: bold;">Ours + Loss</span> | 100,000 | <span style="color: indianred; font-weight: bold;">21.675</span> | <span style="color: indianred; font-weight: bold;">0.862</span> | 3h 55m | 208 |
+<table style="margin-left:auto; margin-right:auto; border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Initial Points</th>
+      <th>PSNR ↑</th>
+      <th>SSIM ↑</th>
+      <th>Training Time</th>
+      <th>Frames</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3DGS</td>
+      <td>100,000</td>
+      <td>20.423</td>
+      <td>0.856</td>
+      <td>2h 13m</td>
+      <td>168</td>
+    </tr>
+    <tr>
+      <td>2DGS</td>
+      <td>100,000</td>
+      <td>19.219</td>
+      <td>0.828</td>
+      <td>2h 1m</td>
+      <td>168</td>
+    </tr>
+    <tr>
+      <td>2DGS (Novel)</td>
+      <td>100,000</td>
+      <td>20.375</td>
+      <td>0.842</td>
+      <td>1h 59m</td>
+      <td>208</td>
+    </tr>
+    <tr>
+      <td><strong>Ours (Novel)</strong></td>
+      <td>100,000</td>
+      <td><strong>21.605</strong></td>
+      <td><strong>0.861</strong></td>
+      <td>2h 6m</td>
+      <td>208</td>
+    </tr>
+    <tr>
+      <td style="color: indianred; font-weight: bold;">Ours + Loss</td>
+      <td>100,000</td>
+      <td style="color: indianred; font-weight: bold;">21.675</td>
+      <td style="color: indianred; font-weight: bold;">0.862</td>
+      <td>3h 55m</td>
+      <td>208</td>
+    </tr>
+  </tbody>
+</table>
 
-</div>
 
 <br>
 
