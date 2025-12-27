@@ -37,7 +37,7 @@ category: 2025
 <h2>Project Overview</h2>
 
 <p align="center">
-    <img src="/images/selfdrive.png" alt="Self-driving Project" width="600">
+    <img src="assets/img/selfdrive.png" alt="Self-driving Project" width="600">
 </p>
 
 <p>
@@ -47,7 +47,7 @@ occupancy map and planned the control process accordingly.
 </p>
 
 <p align="center">
-  <img src="/images/all.png" alt="Self-driving Project" width="600">
+  <img src="assets/img/all.png" alt="Self-driving Project" width="600">
 </p>
 
 <p>
@@ -72,7 +72,7 @@ labeled objects and lanes before conducting experiments.
 
 <p align="center">
     <video width="600" controls>
-        <source src="/videos/realfinal.mp4" type="video/mp4">
+        <source src="assets/video/realfinal.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </p>
@@ -84,7 +84,7 @@ labeled objects and lanes before conducting experiments.
 
 <p align="center">
     <video width="600" controls>
-        <source src="/videos/resnet3.mp4" type="video/mp4">
+        <source src="assets/video/resnet3.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </p>
