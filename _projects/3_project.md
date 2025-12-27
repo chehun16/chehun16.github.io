@@ -7,9 +7,13 @@ importance: 3
 category: 2024
 ---
 
-<h2>Memory optimization for 3D Gaussian Splatting.</h2>
+<h2>Memory optimization for 3D Gaussian Splatting</h2>
 
 <br>
+
+<h2>Project Page</h2>
+
+--------
 
 <div style="text-align: center;">
     <iframe src="https://deep-daiv-computer-vision.github.io/3DGS_DIET/" width="800" height="400" 
@@ -23,6 +27,7 @@ category: 2024
         project page
     </a> above!
 </p>
+--------
 
 <br>
 
@@ -36,8 +41,10 @@ category: 2024
 <p>Training progress was monitored using wandb, and rendering results were visualized.</p>
 
 <p align="center">
-    <img src="/images/wandb.png" alt="Self-driving Project" width="600">
+    <img src="assets/img/wandb.png" alt="Self-driving Project" width="600">
 </p>
+
+<br>
 
 <h2>Result</h2>
 
@@ -78,12 +85,14 @@ category: 2024
     </tr>
 </table>
 
-<h3>Rendering Visualization</h3>
+<br>
+
+<h2>Rendering Visualization</h2>
 <p>Clustering applied at: 24,000 / Densification stopped at: 25,000</p>
 
 
 <p align="center">
-    <img src="/images/vis.png" alt="visualization" width="600">
+    <img src="assets/img/vis.png" alt="visualization" width="600">
 </p>
 
 
