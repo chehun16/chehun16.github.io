@@ -87,12 +87,13 @@ This approach improves geometry accuracy, multi-view consistency, and reduces ar
 | **Ours (Novel)**  | 100,000        | **21.605** | **0.861** | 2h 6m | 208 |
 | <span style="color: indianred; font-weight: bold;">Ours + Loss</span> | 100,000 | <span style="color: indianred; font-weight: bold;">21.675</span> | <span style="color: indianred; font-weight: bold;">0.862</span> | 3h 55m | 208 |
 
+</div>
+
 <br>
 
 - Compared to **3DGS**, our method improves **PSNR from 20.423 → 21.675** and **SSIM from 0.856 → 0.862**  
 - Applying the method to **2DGS** also yields consistent improvements, demonstrating generalizability  
 
-</div>
 
 <br>
 <br>
