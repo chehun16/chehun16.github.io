@@ -143,3 +143,35 @@ I am currently an Undergraduate Research Intern at
   </tr>
 
 </table>
+
+## Activities
+
+<tr><td colspan="2" style="height:18px;"></td></tr>
+
+<tr>
+  <td style="width:25%; vertical-align: top; padding-right: 20px;">
+    <strong>Mar. 2023 – Feb. 2025</strong><br>
+  </td>
+  <td style="width:75%; vertical-align: top;">
+    <strong>
+      <a href="https://www.deepdaiv.com/" target="_blank">deep daiv.</a>
+    </strong><br>
+    <ul style="margin-top: 6px; margin-bottom: 0; padding-left: 18px;">
+      <li>
+        ’24f Self Driving
+      </li>
+      <li>
+        ’24s Deep Learning Architecture
+      </li>
+      <li>
+        ’24w Audio Deep Learning
+      </li>
+      <li>
+        ’23f Audio Deep Learning
+      </li>
+      <li>
+        ’23s Data Analysis
+      </li>
+    </ul>
+  </td>
+</tr>
