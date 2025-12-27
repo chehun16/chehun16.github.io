@@ -76,8 +76,8 @@ I am currently an Undergraduate Research Intern at
     <td style="width:75%; vertical-align: top;">
       <strong>
         <a href="https://ircv.hanyang.ac.kr/">IRCV Lab</a>
-      </strong>,
-      <a href="https://www.hanyang.ac.kr/">Hanyang University</a>,
+      ,
+      <a href="https://www.hanyang.ac.kr/">Hanyang University</a></strong>,
       Seoul, South Korea<br>
       <em>Undergraduate Research Intern</em><br>
       <ul style="margin-top: 6px; margin-bottom: 0; padding-left: 18px;">
@@ -99,8 +99,8 @@ I am currently an Undergraduate Research Intern at
     <td style="width:75%; vertical-align: top;">
       <strong>
         <a href="https://cg.postech.ac.kr/">Computer Graphics Lab</a>
-      </strong>,
-      <a href="https://postech.ac.kr/kor/index.do">POSTECH</a>,
+      ,
+      <a href="https://postech.ac.kr/kor/index.do">POSTECH</a></strong>,
       Pohang, South Korea<br>
       <em>Undergraduate Research Intern</em><br>
       <ul style="margin-top: 6px; margin-bottom: 0; padding-left: 18px;">
@@ -126,8 +126,8 @@ I am currently an Undergraduate Research Intern at
     <td style="width:75%; vertical-align: top;">
       <strong>
         <a href="https://pai.ewha.ac.kr/">PAI Lab</a>
-      </strong>,
-      <a href="https://www.ewha.ac.kr/ewha/index.do">EWHA Womans University</a>,
+      ,
+      <a href="https://www.ewha.ac.kr/ewha/index.do">EWHA Womans University</a></strong>,
       Seoul, South Korea<br>
       <em>Undergraduate Research Intern</em><br>
       <ul style="margin-top: 6px; margin-bottom: 0; padding-left: 18px;">
