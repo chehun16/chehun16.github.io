@@ -6,7 +6,7 @@ subtitle: B.S. in AI @ Ewha Womans University
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic2.jpeg
   image_circular: false
 
 # news: true
