@@ -18,6 +18,7 @@ category: 2025
 
 <h2>Project Page</h2>
 
+---------------------
 <div style="text-align: center;">
     <iframe src="https://chehun16.github.io/deepdrive/" width="800" height="400" 
             style="display: block; margin: auto; border: none;"></iframe>
@@ -30,6 +31,7 @@ category: 2025
         project page
     </a> above!
 </p>
+----------------------
 
 
 <br>
@@ -96,7 +98,7 @@ labeled objects and lanes before conducting experiments.
 <p>I was in charge of the presentation at the 10th <strong style="color: #264a8e">deepdaiv</strong> Open Seminar.😊</p>
 
 <p align="center">
-    <img src="/images/presentation.png" alt="Self-driving Project" width="600">
+    <img src="assets/img/presentation.png" alt="Self-driving Project" width="600">
 </p>
 
 <br>
