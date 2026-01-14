@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Copying Tesla
+title: Autonomous Driving System Implementation 
 description: deepdaiv
 img: assets/img/selfdrive.png
 importance: 2
@@ -12,7 +12,7 @@ category: 2025
 <h2>Project Goal</h2>
 <ul>
     <li>Reduce Memory Consumption</li>
-    <li>Develop a Complete End-to-End Pipeline</li>
+    <li>Develop a Complete Pipeline</li>
     <li>Enable Real-Time Autonomous Control</li>
 </ul>
 
