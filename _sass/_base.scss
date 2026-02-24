@@ -691,20 +691,41 @@ footer.sticky-bottom {
     height: auto !important;
     overflow: hidden;
     container-type: inline-size;
+    display: flex;
+    flex-direction: column;
 
     figure {
+      flex: 0 0 40cqi;
+      min-height: 0;
       margin: 0;
+      overflow: hidden;
 
       img {
         width: 100%;
-        height: 38cqi;
+        height: 100%;
         object-fit: cover;
       }
     }
 
+    .card-body {
+      flex: 1;
+      min-height: 0;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      padding: 3cqi;
+    }
+
     .card-title {
-      font-size: clamp(0.5rem, 3.5cqi, 1.5rem);
+      font-size: clamp(0.5rem, 4cqi, 1.5rem);
       line-height: 1.2;
+      margin-bottom: 1.5cqi;
+    }
+
+    .card-text {
+      font-size: clamp(0.35rem, 2.5cqi, 0.875rem);
+      line-height: 1.3;
+      margin-bottom: 0;
     }
   }
 
