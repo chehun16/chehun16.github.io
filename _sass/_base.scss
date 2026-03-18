@@ -357,8 +357,11 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-table tr:hover {
+table tr:hover,
+table tbody tr:hover,
+.post table tr:hover {
   background-color: transparent !important;
+  color: inherit !important;
 }
 
 a.pub-btn,
