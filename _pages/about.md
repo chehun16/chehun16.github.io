@@ -21,16 +21,19 @@ social: false
 #   limit: 5
 ---
 
-Hi! I am Chehun Han. I am majoring in **Artificial Intelligence** at Ewha Womans University.
-My research interests include **Autonomous Driving** and **3D Reconstruction**.
-In particular, I focus on 3D Gaussian Splatting (3DGS), where I have worked on research aimed at improving rendering quality and reducing memory consumption.
+Hi! I am Chehun Han. I am majoring in Artificial Intelligence at [Ewha Womans University](https://www.ewha.ac.kr/ewha/index.do).
+I'm interested in Autonomous Driving and 3D Reconstruction.
 
 I am currently an Undergraduate Research Intern at
-**[IRCV Lab](https://ircv.hanyang.ac.kr/),
-[Hanyang University](https://www.hanyang.ac.kr/)**.
+[IRCV Lab](https://ircv.hanyang.ac.kr/),
+[Hanyang University](https://www.hanyang.ac.kr/).
 
 
 <div style="clear: both;"></div>
+
+{% include about/publications.liquid %}
+
+<br>
 
 {% include about/education.liquid %}
 
