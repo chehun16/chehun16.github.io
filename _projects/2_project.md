@@ -103,7 +103,7 @@ labeled objects and lanes before conducting experiments.
 
 <br>
 
-<div style="border-left: 6px solid #007BFF; background-color: #f0f8ff; padding: 15px; margin-top: 20px; border-radius: 5px; font-size: 14px;">
+<div style="border: 1.5px solid var(--global-theme-color); background-color: transparent; padding: 15px; margin-top: 20px; border-radius: 5px; font-size: 14px;">
     <strong>🧑‍💻 My Role:</strong> Led the development of <strong>object detection</strong> and <strong>lane detection</strong> modules, and implemented the integration of all perception-planning-control components into a unified <strong>Autonomous Engine</strong>. Also managed data collection and labeling. 
     Additionally, I delivered a presentation of the project at the deepdaiv Open Seminar.
     Also made the project page.😊

@@ -157,7 +157,7 @@ This approach improves geometry accuracy, multi-view consistency, and reduces ar
 
 <br>
 
-<div style="border-left: 6px solid #007BFF; background-color: #f0f8ff; padding: 15px; margin-top: 20px; border-radius: 5px; font-size: 14px;">
+<div style="border: 1.5px solid var(--global-theme-color); background-color: transparent; padding: 15px; margin-top: 20px; border-radius: 5px; font-size: 14px;">
     <strong>🧑‍💻 My Role:</strong> Conceived the research idea, designed the methodology, and carried out the entire implementation 
     — including dataset preparation, novel view generation, loss function integration, and experimental evaluation — with advisory 
     input from a doctoral researcher.

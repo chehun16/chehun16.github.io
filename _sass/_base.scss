@@ -357,6 +357,10 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+table tr:hover {
+  background-color: transparent !important;
+}
+
 a.pub-btn,
 a.pub-btn:hover {
   text-transform: none !important;
