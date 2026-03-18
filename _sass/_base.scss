@@ -357,6 +357,29 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+#navbar .navbar-brand.social {
+  font-size: 1.1rem;
+
+  a {
+    img {
+      width: 1.1rem;
+      height: 1.1rem;
+      margin-bottom: 0.2rem;
+    }
+
+    svg {
+      width: 1.1rem;
+      height: 1.1rem;
+      margin-bottom: 0.2rem;
+
+      image {
+        width: 1.1rem;
+        height: 1.1rem;
+      }
+    }
+  }
+}
+
 .navbar-toggler {
   .icon-bar {
     display: block;
