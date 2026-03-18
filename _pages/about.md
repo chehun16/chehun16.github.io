@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: B.S. in AI @ Ewha Womans University
+subtitle:
 
 profile:
   align: right
@@ -29,17 +29,6 @@ I am currently an Undergraduate Research Intern at
 **[IRCV Lab](https://ircv.hanyang.ac.kr/),
 [Hanyang University](https://www.hanyang.ac.kr/)**.
 
-<br>
-
-<p align="center">
-  <strong>
-    <a href="mailto:chehunhan16@gmail.com">E-mail</a> |
-    <a href="/assets/pdf/cv_ChehunHan.pdf" target="_blank">CV</a> |
-    <a href="https://github.com/chehun16">Github</a>
-  </strong>
-</p>
-
-<br>
 
 <div style="clear: both;"></div>
 
