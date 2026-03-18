@@ -199,7 +199,11 @@
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
       {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0 pub-btn" role="button"><i class="ai ai-arxiv"></i> arXiv</a>
+        {% if entry.arxiv == '#' %}
+          <a href="#" class="btn btn-sm z-depth-0 pub-btn" role="button"><i class="ai ai-arxiv"></i> arXiv</a>
+        {% else %}
+          <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0 pub-btn" role="button"><i class="ai ai-arxiv"></i> arXiv</a>
+        {% endif %}
       {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
@@ -210,13 +214,6 @@
       {% endif %}
       {% if entry.code %}
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0 pub-btn" role="button"><i class="fa-brands fa-github"></i> Code</a>
-      {% endif %}
-      {% if entry.pdf %}
-        {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0 pub-btn" role="button"><i class="fa-solid fa-file-pdf"></i> PDF</a>
-        {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0 pub-btn" role="button"><i class="fa-solid fa-file-pdf"></i> PDF</a>
-        {% endif %}
       {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}
