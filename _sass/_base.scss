@@ -357,6 +357,12 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+a.pub-btn,
+a.pub-btn:hover {
+  text-transform: none !important;
+  letter-spacing: normal !important;
+}
+
 #navbar .navbar-brand.social {
   font-size: 1.35rem;
 
