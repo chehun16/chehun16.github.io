@@ -24,9 +24,6 @@ social: false
 Hi! I am Chehun Han. I am majoring in Artificial Intelligence at [Ewha Womans University](https://www.ewha.ac.kr/ewha/index.do).
 I'm interested in Autonomous Driving and 3D Reconstruction.
 
-I am currently an Undergraduate Research Intern at
-[IRCV Lab](https://ircv.hanyang.ac.kr/),
-[Hanyang University](https://www.hanyang.ac.kr/).
 
 
 <div style="clear: both;"></div>
