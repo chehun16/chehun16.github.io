@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: IMG_2410.jpg
+  image: profile.jpg
   image_circular: false
 
 # news: true
