@@ -2,6 +2,11 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+.projects .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
 // Typography
 
 p,
