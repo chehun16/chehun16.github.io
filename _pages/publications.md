@@ -13,12 +13,6 @@ nav_order: 2
 
 <div class="publications">
 
-<h2 class="pub-category-header">International</h2>
-
-{% bibliography --query @*[category=international] %}
-
-<h2 class="pub-category-header">Domestic</h2>
-
-{% bibliography --query @*[category=domestic] %}
+{% bibliography %}
 
 </div>
