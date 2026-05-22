@@ -7,7 +7,7 @@ subtitle:
 profile:
   align: right
   image: profile1.jpg
-  image_circular: false
+  image_circular: true
 
 # news: true
 education: true
