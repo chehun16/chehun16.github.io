@@ -21,7 +21,9 @@ social: false
 #   limit: 5
 ---
 
-Hi! I am Chehun Han. I am majoring in Artificial Intelligence at [Ewha Womans University](https://www.ewha.ac.kr/ewha/index.do).
+Hi! I am Chehun Han, an incoming M.S. student at [POSTECH](https://www.postech.ac.kr/kor/index.do) [Computer Graphics Lab](https://cg.postech.ac.kr/).
+<br>
+I am currently pursuing a B.S. degree in Artificial Intelligence at [Ewha Womans University](https://www.ewha.ac.kr/ewha/index.do).
 <br>
 My research interests are Autonomous Driving and 3D Reconstruction. I'm interested in novel view synthesis in driving scenes.
 
