@@ -21,7 +21,7 @@ social: false
 #   limit: 5
 ---
 
-Hi! I am Chehun Han, an incoming M.S. student at [POSTECH](https://www.postech.ac.kr/kor/index.do) [Computer Graphics Lab](https://cg.postech.ac.kr/).
+Hi! I am an incoming M.S. student in the [Computer Graphics Lab](https://cg.postech.ac.kr/) at [POSTECH](https://www.postech.ac.kr/kor/index.do), advised by [Prof. Seungyong Lee](https://cg.postech.ac.kr/leesy/).
 <br>
 I am currently pursuing a B.S. degree in Artificial Intelligence at [Ewha Womans University](https://www.ewha.ac.kr/ewha/index.do).
 <br>
