@@ -1,14 +1,14 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
 
 a {
-  color: #1772d0;
+  color: #E65E87;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
-  text-decoration: none;
+  color: #E65E87;
+  text-decoration: underline;
 }
 
 body,
