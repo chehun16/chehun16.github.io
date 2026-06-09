@@ -18,7 +18,7 @@ tr,
 p,
 a {
   font-family: 'Pretendard', Verdana, Helvetica, sans-serif;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .top-nav {
@@ -34,8 +34,8 @@ a {
 
 .top-nav a {
   color: #111;
-  font-size: 17px;
-  font-weight: normal;
+  font-size: 15px;
+  font-weight: inherit;
 }
 
 .top-nav a:focus,
@@ -46,7 +46,7 @@ a {
 
 strong {
   font-family: 'Pretendard', Verdana, Helvetica, sans-serif;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 h2 {
